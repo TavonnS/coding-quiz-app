@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz Web App</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+
+<div id="start-screen">
+    <h1>Coding Quiz</h1>
+    <button class="start-btn">Start Quiz</button>
+</div>
+
+<div id="question-container" class="hide">
+    <div id="question-title"></div>
+    <div id="choices-container"></div>
+</div>
+
+<div id="time-left">
+    <p>Time: 0</p>
+</div>
+
+<div id="high-score" class="hide">
+    <p>High Scores:</p>
+        <p>Your final score is <span id="final-score"></span>.</p>
+        <p>
+          Enter initials: <input type="text" id="initials" max="3" />
+          <button id="submit">Submit</button>
+        </p>
+</div>
+
+<div id="final-screen"></div>
+
+<div id="hs-screen"></div>
+
+
+<script src="./javascript/script.js"></script>
+</body>
+</html>
